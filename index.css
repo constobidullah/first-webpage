@@ -11,7 +11,7 @@
     background-image: url('./images/top-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 .text-section {
@@ -69,14 +69,21 @@
 
 #main-section {
     display: flex;
+    align-items: center;
     background-image: url('./images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
 }
 
 .main-section-image img {
-    margin-top: 0;
+    margin-left: 70px;
     width: 40vw;
     height: auto;
     border-radius: 10px;
+}
+
+.dream-text{
+    text-align: left;
+    margin-right: 4rem;
+    margin-bottom: 1.5em;
 }
