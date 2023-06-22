@@ -101,23 +101,44 @@
     margin: 10px 50px;
 }
 
-.experience-children{
+.experience-children1{
     width: 100vw;
     background-color: rgb(221, 255, 221);
     text-align: center;
     padding: 20px;
 }
 
-.experience-children h1{
+.experience-children1 h1{
     margin: 2rem 0;
     font-weight: bolder;
 }
-.experience-children h4{
+.experience-children1 h4{
     margin: 1rem 0;
     font-weight: 900;
     color: rgb(252, 102, 47);
 }
-.experience-children p{
+.experience-children1 p{
+    margin: 1rem 0;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.experience-children2{
+    width: 100vw;
+    background-color: rgb(221, 255, 221);
+    text-align: center;
+    padding: 20px;
+}
+.experience-children2 h1{
+    margin: 2rem 0;
+    font-weight: bolder;
+}
+.experience-children2 h4{
+    margin: 1rem 0;
+    font-weight: 900;
+    color: rgb(252, 102, 47);
+}
+.experience-children2 p{
     margin: 1rem 0;
     font-weight: 400;
     text-align: justify;
