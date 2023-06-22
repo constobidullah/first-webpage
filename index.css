@@ -11,14 +11,17 @@
     background-image: url('./images/top-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 5em;
 }
 
-.text-section{
-    margin:70px 95px;
+.text-section {
+    margin: 70px 95px;
 }
-.text-section-children{
+
+.text-section-children {
     margin-bottom: 30px;
 }
+
 .text-section .text-section-children p {
     /* line-height: 10px; */
     font-weight: 800;
@@ -58,6 +61,20 @@
 }
 
 .image-section img {
+    margin-top: 0;
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+#main-section {
+    display: flex;
+    background-image: url('./images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main-section-image img {
     margin-top: 0;
     width: 40vw;
     height: auto;
