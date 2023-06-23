@@ -233,22 +233,25 @@ footer span {
 
     #main-section {
         display: flex;
-        background-image: url('./images/dream-bg.png');
+        background-image: url('./images/OIP.jfif');
         background-repeat: no-repeat;
-        background-position: top right;
+        background-position: center top;
+        background-size: contain;
         flex-direction: column-reverse;
         margin-bottom: 10em;
         max-width: 480px;
         min-width: 320px;
     }
 
+    .dream-heading{
+        text-align: left;
+    }
     .dream-text {
-        text-align: center;
+        text-align: left;
         margin-bottom: 1.5em;
     }
-
     .dream-text p{
-        text-align: justify;
+        text-align: center;
     }
 
     .main-section-image img {
