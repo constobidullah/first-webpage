@@ -131,7 +131,7 @@
 }
 
 .experience-children2 {
-    width: 100vw;
+    /* width: 100vw; */
     background-color: rgb(221, 255, 221);
     text-align: center;
     padding: 20px;
@@ -167,9 +167,7 @@ footer span {
 
 @media screen and (max-width: 480px) and (min-width:320px) {
     #header-container {
-        /* margin: 0 20px; */
         display: flex;
-        /* gap: 10%; */
         flex-direction: column;
         background-image: url('./images/top-banner.png');
         background-repeat: no-repeat;
@@ -266,8 +264,6 @@ footer span {
         background-image: url('./images/last.png');
         background-repeat: no-repeat;
         margin-bottom: 10rem;
-        max-width: 480px;
-        min-width: 320px;
     }
 
     .experience-children1 {
@@ -296,11 +292,12 @@ footer span {
     }
 
     .experience-children2 {
-        max-width: 480px;
         min-width: 320px;
+        max-width: 480px;
         background-color: rgb(221, 255, 221);
-        text-align: left;
+        text-align: center;
         padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     }
 
     .experience-children2 h1 {
