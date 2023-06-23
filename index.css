@@ -266,11 +266,13 @@ footer span {
         background-image: url('./images/last.png');
         background-repeat: no-repeat;
         margin-bottom: 10rem;
+        max-width: 480px;
+        min-width: 320px;
     }
 
     .experience-children1 {
-        max-width: 480px;
         min-width: 320px;
+        max-width: 480px;
         background-color: rgb(239, 216, 255);
         text-align: left;
         padding: 20px;
