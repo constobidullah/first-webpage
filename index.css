@@ -85,9 +85,13 @@
 }
 
 .dream-text {
-    text-align: left;
+    text-align: center;
     margin-right: 4rem;
     margin-bottom: 1.5em;
+}
+
+.dream-text p{
+    text-align: center;
 }
 
 .experience {
@@ -239,8 +243,12 @@ footer span {
     }
 
     .dream-text {
-        text-align: justify;
+        text-align: center;
         margin-bottom: 1.5em;
+    }
+
+    .dream-text p{
+        text-align: justify;
     }
 
     .main-section-image img {
