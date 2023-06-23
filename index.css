@@ -278,8 +278,9 @@ footer span {
     }
 
     .experience-children1 {
-        min-width: 320px;
-        max-width: 480px;
+        width: 100%;
+        /* min-width: 320px;
+        max-width: 480px; */
         background-color: rgb(239, 216, 255);
         text-align: left;
         padding: 20px;
@@ -303,8 +304,9 @@ footer span {
     }
 
     .experience-children2 {
-        min-width: 320px;
-        max-width: 480px;
+        width: 100%;
+        /* min-width: 320px;
+        max-width: 480px; */
         background-color: rgb(221, 255, 221);
         text-align: center;
         padding: 20px;
