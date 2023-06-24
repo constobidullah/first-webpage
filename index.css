@@ -314,12 +314,14 @@ footer span {
     .experience-children2 h1 {
         margin: 1rem;
         font-weight: bolder;
+        text-align: left;
     }
 
     .experience-children2 h4 {
         margin: 1rem;
         font-weight: 900;
         color: rgb(252, 102, 47);
+        text-align: left;
     }
 
     .experience-children2 p {
